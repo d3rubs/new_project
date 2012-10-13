@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+/*Set nav bar background, borders, and align text*/
+
+nav	{
+	background-color: yellowGreen;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	text-align: center;
+}
+
+/*Remove margins and padding*/
+
+nav, #main, ul	{
+	margin: 0;
+	padding: 0;
+}
+/*Style fonts and remove underlines*/
+
+/*Eliminate list bullets*/
+
+ul	{
+	list-style-type: none;
+}
+
+/*Set hyperlinks and inline elements*/
+
+li	{
+	display:inline-block;
+} 
+
+/*Add psuedo class states*/
+
+#main li:hover a{
+	color: blue;
+	background-color: ghostWhite;
+}
+
