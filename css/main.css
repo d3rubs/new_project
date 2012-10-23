@@ -1,7 +1,7 @@
 @CHARSET "UTF-8";
 
 /*make font orange and bold*/
-strong	{
+	strong	{
 	color:orange;
 	text-decroration:blink;
 }
@@ -159,4 +159,7 @@ section p {
 }
 /* floating layout */
 
+header img	{
+	float: left;
+}
 
